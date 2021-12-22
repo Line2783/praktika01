@@ -1,0 +1,57 @@
+.header {
+  &__top {
+    background-color: #1175b7;
+  }
+  &__bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px 0 20px
+  }
+}
+.contact__icon{
+  text-align: right;
+}
+
+.contacts {
+  font-size: 0.9rem;
+  color: #fff;
+
+  .contact {
+    text-align: left;
+
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 10px 8px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #fff;
+    &:hover {
+      color: #c5c4c3 ;
+    }
+    &__text{
+      display: inline-block;
+      vertical-align: middle;
+      padding: 10px 10px 8px;
+    }
+
+
+    &__icon {
+      margin-right: 7px;
+      margin-left: 20px;
+      font-size: 1rem;
+      color: #f6a937;
+      vertical-align: middle;
+
+      &__other {
+        color: #fff;
+        margin-left: 20px;
+        vertical-align: middle;
+      }
+  }
+}
+    .twitter-icon{
+      margin-left: 250px;
+    }
+}

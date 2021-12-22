@@ -1,0 +1,26 @@
+body{
+  font-family: $ff-contact;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+html{
+  box-sizing: border-box;
+  max-width: 1600px;
+  margin: auto;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}

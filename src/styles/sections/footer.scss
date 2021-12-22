@@ -1,0 +1,149 @@
+.footer{
+  background: #ccc url('../images/footer_bg.png') no-repeat;
+  &__top{
+    background-color: #1175b7;
+
+    vertical-align: middle;
+    color: #fff;
+  border-bottom: #8d8c8c solid 1px;
+
+
+&__icon{
+  margin-right: 10px;
+  color: orange;
+}
+  }
+  .one{
+    text-align: right;
+    width: 30%;
+
+    margin: -0.1%;
+  }
+  .two{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+
+    border-right: #8d8c8c solid 1px;
+    border-left: #8d8c8c solid 1px;
+  }
+  .three{
+    text-align: left;
+    width: 30%;}
+
+    .container{display: flex;
+      padding: 50px 0;
+
+
+
+}
+ a{
+   color:#fff;
+   text-decoration: none;
+   &:hover {
+   color: #c5c4c3 ;
+ }
+ }
+  &__medium{
+
+    padding: 0;
+    margin: 0;
+    line-height: 1.5rem;
+
+    .container{
+      display: flex;
+      padding: 0;
+
+    }
+    ul{
+      margin-left: 0;
+      padding: 0;
+      color: white;
+      margin-right: 50px;
+      line-height: 2rem;
+      h1{
+        font-size: 1.5rem;
+      }
+      span{
+        font-size: 0.8rem;
+      }
+    }
+    .ul{
+
+  &__1{
+    width: 320px;
+    margin-top: 120px;
+    i{
+      margin-top: 20px;
+    }
+  }
+      &__2{
+        width: 160px;
+        margin-top: 120px;
+      }
+      &__3{
+        width: 160px;
+        margin-top: 180px;
+      }
+      &__4{
+        width: 385px;
+        margin-top: 120px;
+        input{
+          border: orange solid 2px;
+          width: 300px;
+          height: 40px;
+          margin-top: 30px;
+          border-radius: 0;
+        }
+      }
+    }
+
+  hr{
+    width: 32px;
+    margin-left: 0;
+    margin-bottom: 25px;
+    background-color: orange;
+    border: none;
+    height: 3px;
+}
+    &__icon{
+      color: #414141;
+      background-color: #fff;
+      border-radius: 50%;
+      padding: 5px;
+      margin-left: 5px;
+
+      &__input{
+        background-color: orange;
+        color: #fff;
+        border: orange solid 1px;
+
+        margin-left: -1%;
+        padding-top: 11.3px;
+        padding-bottom: 11px;
+        padding-left: 11px;
+        padding-right: 11px;
+      }
+      &__twitter{
+        color:#fff;
+        background-color: orange;
+        border-radius: 50%;
+        padding: 5px;
+      }
+      .fa-facebook{
+
+      }
+    }
+    }
+  .footer__bottom{
+    .container{
+      border-top: #8d8c8c solid 1px ;
+      display: flex;
+      align-items: center;
+    }
+    span{
+    color: #fff;
+      margin-left: 120px;
+    }
+  }
+  }

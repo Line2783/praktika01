@@ -1,0 +1,48 @@
+.deliv{
+  min-height: 1000px;
+  background:  url('../images/deliv_back.png') no-repeat;
+  color:#fff;
+  padding: 125px 0 0 0;
+  text-align:center;
+  h1{
+    font-size: 3rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .button{
+    &__white{
+      color: orange;
+      background-color: #fff;
+      padding: 20px 60px;
+      margin-top: 30px;
+    }
+  }
+  .container{
+    background-color: #038fd6;
+    margin-top: 60px;
+    padding: 90px 185px;
+  }
+  .img{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  img{
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: 10px;
+
+  }
+  .img__center{
+    border: #fff solid 2px;
+  }
+  span{
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+  p{
+    margin-top: 30px;
+  }
+}

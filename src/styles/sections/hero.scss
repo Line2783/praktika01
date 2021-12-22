@@ -1,0 +1,26 @@
+.hero{
+  min-height: 800px;
+  padding: 260px 0;
+  text-align:center;
+  color: #fff;
+  background: #ccc url('../images/hero-bg.png') center/cover no-repeat;
+
+
+  &__about{
+    font-family: $ff-main-bold;
+    font-size: 1.25rem;
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+
+  &__title{
+    margin-top: 0;
+    margin-bottom: 0;
+
+    &__b{
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
+  }
+}
+

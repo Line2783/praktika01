@@ -33,9 +33,9 @@ function cleanBuild(cb) {
 }
 
 function buildStyles() {
-    return gulp.src("src/style/sass/**/style.sass")
+    return gulp.src("src/style/sass/**/styles.sass")
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('build/style/'));
+        .pipe(gulp.dest('build/styles/'));
 }
 
 function cleanStyles(cb) {
@@ -75,5 +75,5 @@ function watchSrc() {
     watch("src/img/*.*",  series(cleanImages, copyImages));
     watch("src/fonts/*.*",  series(cleanFonts, copyFonts));
     watch("src/**/*.pug", series(cleanHtml, buildHtml));
-    watch("src/style/sass/**/*.sass", series(cleanStyles, buildStyles));
+    watch("src/styles/sass/**/*.sass", series(cleanStyles, buildStyles));
 }

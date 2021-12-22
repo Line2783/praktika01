@@ -1,0 +1,49 @@
+.project{
+  .container {
+    text-align: center;
+
+  }
+  .text{
+    padding: 20px 280px 20px 280px;
+    color: #414141;
+  }
+  hr{
+    background-color: orange;
+    height: 3px;
+    border: none;
+    width: 65px;
+  }
+  .photo{
+      padding: 0;
+    margin-bottom: 70px;
+    }
+
+  img{
+  position: relative;
+  margin: 10px;
+
+
+  }
+
+
+ .new{
+   color:#414141;
+  margin-bottom: 25px;
+
+ }
+
+  .link__active{
+    background-color: orange;
+    color: #fff;
+    border-radius: 3px;
+    &:hover{
+      color: #fff;
+    }
+  }
+
+  .inactive{
+    &:hover{
+      color: orange;
+    }
+  }
+}
