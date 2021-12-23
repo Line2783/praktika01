@@ -15,12 +15,10 @@ exports.sync = sync;
 function sync() {
     browserSync.init({
         server: {
-            baseDir: "build"
+            baseDir: "dest"
         },
-        files: "build/**/*.*"
+        files: "dest/**/*.*"
     });
-
-    //watch("build/**/*").on("change", browserSync.reload);
 }
 
 function buildSrc(cb) {
@@ -29,27 +27,27 @@ function buildSrc(cb) {
 }
 
 function cleanBuild(cb) {
-    rimraf("build", cb);
+    rimraf("dest", cb);
 }
 
 function buildStyles() {
-    return gulp.src("src/style/sass/**/styles.sass")
+    return gulp.src("src/styles/sass/style.scss")
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('build/styles/'));
+        .pipe(gulp.dest('dest/styles/'));
 }
 
 function cleanStyles(cb) {
-    rimraf("build/style", cb);
+    rimraf("dest/styles", cb);
 }
 
 function buildHtml() {
     return gulp.src("src/**/index.pug")
         .pipe(pug())
-        .pipe(gulp.dest("build/"));
+        .pipe(gulp.dest("dest/"));
 }
 
 function cleanHtml(cb) {
-    rimraf("build/**/*.html", cb);
+    rimraf("dest/**/*.html", cb);
 }
 
 function copyImages() {
@@ -58,7 +56,7 @@ function copyImages() {
 }
 
 function cleanImages(cb) {
-    rimraf("build/img", cb);
+    rimraf("dest/img", cb);
 }
 
 function copyFonts() {
@@ -67,7 +65,7 @@ function copyFonts() {
 }
 
 function cleanFonts(cb) {
-    rimraf("build/fonts", cb);
+    rimraf("dest/fonts", cb);
 }
 
 

@@ -1,0 +1,23 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+@import "../global/mixins.scss";
+@import "../global/fonts.scss";
+@import "../global/vars.scss";
+@import "../global/common.scss";
+@import "../global/base.scss";
+@import "../global/sprite.scss";
+@import "../global/button.scss";
+
+
+@import "../sections/header.scss";
+@import "../sections/nav.scss";
+@import "../sections/hero.scss";
+@import "../sections/aboutus.scss";
+@import "../sections/services.scss";
+@import "../sections/overview.scss";
+@import "../sections/chooseus.scss";
+@import "../sections/project.scss";
+@import "../sections/deliv.scss";
+@import "../sections/latest_blog.scss";
+@import "../sections/forma.scss";
+@import "../sections/footer.scss";
